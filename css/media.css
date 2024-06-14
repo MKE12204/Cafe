@@ -1,0 +1,85 @@
+
+@media(max-width:1140px){
+    .select_img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Cakes{
+        margin-top: 30px;
+    }
+
+    .Foods{
+        margin-top: 30px;
+    }
+
+    .block{
+        width: 800px;
+    }
+}
+
+
+@media(max-width:991px){
+    /*     .navbar-toggler-icon{
+            background-image:url(../icon/burger-menu-svgrepo-com.svg);
+            fill:white;
+            border:none;
+        } */
+    
+        .block{
+            width: 700px;
+        }
+    }
+
+    @media(max-width:804px){
+
+        .block{
+            width: 500px;
+            max-height:800px ;
+        }
+    }
+
+@media(max-width:605px){
+    .block{
+        width: 400px;
+    }
+
+}
+
+@media(max-width:526px){
+
+    .grand_title{
+        font-size:10px;
+    }
+      
+    .block{
+        width: 300px;
+    }
+}
+
+@media(max-width:410px){
+    .block{
+        width: 230px;
+        margin-left: 5px;
+    }
+   
+}
+
+@media(max-width:460px){
+    .footer_column{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .author{
+        margin-top: 47px;
+    }
+
+    .footer_img{
+        top: 3315px;
+        left:365px;
+    }
+}

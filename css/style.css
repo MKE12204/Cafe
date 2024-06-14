@@ -15,7 +15,6 @@ header {
     max-width: 1200px;
 }
 
-
 .navbar-brand {
     font-family: "Noto Sans Georgian", sans-serif;
     font-size: 44px;
@@ -28,10 +27,20 @@ header {
     font-weight: 300;
 }
 
-.wrapper_grand{
-    background: url(../img/bg/bg1.png) ;
+.grand_open{
+    overflow: hidden;
+    background: url(../img/bg/coffee\ 1.png) ;
+    background-repeat:no-repeat;
     min-height: 520px;
-    width: 100%;
+}
+
+.grand_title{
+    font-family: "Shadows Into Light", cursive;
+    font-size: 110px;
+    font-weight: normal;
+    text-align: center;
+    color: #fff;
+    margin-top: 171px;
 }
 
 .select_wrapper{
@@ -92,21 +101,20 @@ header {
     margin-bottom: 62px;
 }
 
-.selection_btn:hover{
+/* .selection_btn:hover{
     background-color:white;
     color:black;
     transition: 0.7s all;
-}
+} */
 span{
     padding-left: 25px; 
     color:white;
 }
 
-.dsr_wrapper{
-    background-image:url(../img/bg/cafe\ 1.jpg);
+.description{
+    background-image:url(../img/bg/cafe_1.png);
     overflow: hidden;
     background-repeat: no-repeat;
-    min-height: 406px;
 } 
 
 .dsrg{
@@ -187,11 +195,10 @@ span{
     padding: 20px;
     border: solid 1px #668e68;
     background-color: #fff;
-    width: 1100px;
-    height: 102px;
+    /* min-width: 1100px; */
+    margin: 0 auto;
     margin-top: 62px;
-    margin-bottom: 80px;
-    margin-left: 90px;
+    margin-bottom: 80px; 
 }
 
 .first_blockt{
@@ -238,6 +245,11 @@ footer{
     font-size: 14px;
     font-weight: 500;
     color: #fff;
+}
+
+.footer_img {
+    position: absolute;
+    right:15px ;
 }
 
 

@@ -75,11 +75,9 @@ header {
 }
 
 .Cakes{
-    margin-left: 30px;
 }
 
 .Foods{
-    margin-left: 30px;
 }
 
 .selection_btn{
@@ -224,6 +222,7 @@ id{
 
 footer{
     background-color: #000;
+    height: 120px;
 }
 
 .footer_column{
